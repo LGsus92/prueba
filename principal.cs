@@ -15,6 +15,10 @@ class program
             console.writeLine("4. Dividir");
             console.writeLine("5. Salir");
             opc= int.Parse(console.ReadLine());
+
+            if(opc==1){
+                Console.WriteLine("Sumar");
+            }
         }
         while(opc != 5);
     }
